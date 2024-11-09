@@ -1,0 +1,59 @@
+body {
+    color: rgb(136, 158, 129);
+    background: rgb(101, 119, 86);
+    font-family: "Rowdies", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(170, 192, 179);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(66, 90, 63)
+}
+
+.chamada {
+    background: rgb(82, 99, 81);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 35px;
+}
+
+/* código omitido */
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* código escondido */
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 220px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
+
+.categoria h2 {
+    color: rgb(51, 77, 53);
+}
